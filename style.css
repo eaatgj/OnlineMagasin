@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media only  screen and (max-width:480px) {
+    
+
+    .label {
+        display: block;
+        cursor: pointer; 
+        
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .image-float,
+    .text-float {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 768px)and (max-width:979px) {
+
+    .image-float,
+    .text-float {
+        width: 50%;
+        float: left;
+    }
+ }
+
+body {
+    background-color: gainsboro;
+}
+
+
+
+h2 {
+
+    justify-content: center;
+    color: wheat;
+
+}
+
+.tit {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.imgs {
+    position: absolute;
+}
+
+#navto {
+    width: 100%;
+    height: 55px;
+    position: sticky;
+    top: 0;
+
+}
+
+
+#navto > ul {
+    position: relative sticky;
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 55px;
+    /*    Display: flex incmoing*/
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#navto > ul > li > a {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+
+    color: wheat;
+    text-decoration: none;
+    transition: .5s;
+    margin: 0 5px;
+}
+
+#navto > ul > li > a:hover {
+    transition: .5s;
+    color: brown;
+}
+
+}
+
+.active {
+    background-color: black;
+    transition: .5s;
+    color: white;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+#nav {
+    width: 100%;
+    height: 55px;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+
+}
+
+
+#nav > ul {
+    position: relative sticky;
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 55px;
+    /*    Display: flex incmoing*/
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#nav > ul > li > a {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    text-transform: lowercase;
+    margin: 0 5px;
+}
+
+#nav > ul > li > a:hover {
+    background-color: black;
+    transition: .5s;
+    color: brown;
+}
+
+.las {
+    display: flex;
+    justify-content: center;
+}
+
+.transp {
+    display: flex;
+    justify-content: center;
+}
+
+.abno {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.baggrund {
+    background-image: url(../images/wood-2065366_1920.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.BM {
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.tekst {
+    color: wheat;
+
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    top: 50;
+    left: 0;
+}
+
+.tek {}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    width: 10%;
+    font-size: 1.5em;
+    margin: -1em 0 0 0.5em;
+    line-height: 10vh;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+
+#toggle {
+    display: none;
+
+}
